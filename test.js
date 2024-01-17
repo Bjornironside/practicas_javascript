@@ -12,24 +12,14 @@ var inputpass = document.getElementById('input_pass')
 
 
 
-
 miBoton.addEventListener("click", function () {
-   console.log(inputname.value)
-   
-   console.log(inputpass.value)
-   
-   
-   
-   
-   
-   
-   
-   
-   
+    console.log(inputname.value)
+    console.log(inputpass.value)
+
     // console.log(inputvalue.value)
+    // divTest.innerHTML = inputValue.value
+    // inputValue.type ="password"
 
-//    divTest.innerHTML = inputValue.value
+    alert(`nombre: ${inputname.value}  pass: ${inputpass.value}`)
 
-//    inputValue.type ="password"
-   
 });
