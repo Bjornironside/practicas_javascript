@@ -21,5 +21,9 @@ miBoton.addEventListener("click", function () {
     // inputValue.type ="password"
 
     alert(`nombre: ${inputname.value}  pass: ${inputpass.value}`)
-
 });
+
+
+
+
+
