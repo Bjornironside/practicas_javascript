@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,36 +8,30 @@
     <title>Tomy project</title>
 </head>
 
-
-
 <body>
+
     <div id="myDiv">
         soy un div
     </div>
-    <!--  -->
-    <input id='input_name' placeholder="nombre" />
 
+    <!-- INPUT NAME -->
+    <input class='inputName' id='input_name' placeholder="nombre" />
+    <!-- INPUT PASS -->
     <input id='input_pass' placeholder="pass" type="password" />
 
-
+    <!-- BOTON -->
     <button id='miBoton'>
         soy button
     </button>
 
+    <!-- IMAGEN -->
     <img src="data:image/jpeg;base64,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"
         alt="">
 
-
-
-
-
-
-
-
-
+    <!-- Aca conectamos con nuestro archivo .js -->
     <script src="test.js"></script>
-</body>
 
+</body>
 
 
 </html>
